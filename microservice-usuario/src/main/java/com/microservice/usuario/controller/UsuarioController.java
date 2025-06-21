@@ -107,6 +107,7 @@ public class UsuarioController {
         }
     }
 
+
     //localhost:8090/api/v1/usuarios/{id_usuario}
     @PutMapping("{id_usuario}")
     public ResponseEntity<UsuarioDTO> update(@PathVariable int id_usuario, @RequestBody UsuarioDTO usuarioDTO) {
@@ -148,8 +149,4 @@ public class UsuarioController {
             return ResponseEntity.notFound().build();
         }
     }
-
-
-
 }
-

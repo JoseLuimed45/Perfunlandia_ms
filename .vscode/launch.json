@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MicroserviceVentaApplication",
+            "request": "launch",
+            "mainClass": "com.microservice.venta.MicroserviceVentaApplication",
+            "projectName": "microservice-venta"
+        },
+        {
+            "type": "java",
+            "name": "MicroserviceUsuarioApplication",
+            "request": "launch",
+            "mainClass": "com.microservice.usuario.service.MicroserviceUsuarioApplication",
+            "projectName": "microservice-usuario"
+        },
+        {
+            "type": "java",
             "name": "MicroserviceGatewayApplication",
             "request": "launch",
             "mainClass": "com.microservice.gateway.MicroserviceGatewayApplication",
